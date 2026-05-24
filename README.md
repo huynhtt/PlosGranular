@@ -1,6 +1,13 @@
-The empirical analysis employs daily data on the Vietnamese Dong–US dollar 235
-(VND/USD) exchange rate, the CBOE Volatility Index (VIX), and West Texas 236
-Intermediate (WTI) crude oil prices over the period from 1 January 2015 to 1 December 237
-2025. All financial series are obtained from https://www.investing.com/, which 238
-provides consistent and widely used historical data for foreign exchange and global 239
-financial markets. 
+Replication package for:
+Forecasting Exchange Rate Dynamics in Emerging Markets:
+A Granular Fractional Modeling Approach
+
+Files:
+- data_FX.xlsx: processed FX, VIX, and WTI data
+- main_analysis.R: R code for descriptive statistics, unit root tests,
+  BDS tests, fuzzy AR(2), rolling forecasts, DM tests, and sensitivity analysis
+
+To reproduce:
+1. Open main_analysis.R
+2. Set file_path to the local location of data_FX.xlsx
+3. Run the script from top to bottom
